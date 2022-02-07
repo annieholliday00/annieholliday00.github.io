@@ -5,6 +5,8 @@ body, html {
 #background
 {
 	background-color: #9d9d9d;
+	height:100%;
+	width:100%;
 }
 
 #paragraph
