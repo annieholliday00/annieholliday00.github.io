@@ -2,25 +2,35 @@ body, html
 
 #background
 {
-	background-color: #9d9d9d;
+	background: rgb(154,135,167);
+	background: radial-gradient(circle, rgba(134,49,82,1) 0%, rgba(35,42,48,1) 100%);
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
+}
+
+
+#paragraphback
+{
+	background: rgb(154,135,167);
+	background: linear-gradient(330deg, rgba(109,61,25,0.8) 0%, rgba(35,42,48,0.2) 60%);
+	width:100%;
+	height:100%;
 }
 
 #paragraph
 {
 	font-family: georgia;
 	font-size: 12px;
-	color: #E2BF9C;
-	letter-spacing:1.5pt;
+	color: #7476aa;
+	letter-spacing:2pt;
 }
 
 #header
 {
 	font-family: georgia;
-	font-size: 20px;
-	color: #D4BDAE;
+	font-size: 30px;
+	color: #7476aa;
 	letter-spacing:1.5px;
 }
 
