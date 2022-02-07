@@ -2,9 +2,9 @@ body, html {
   height: 100%;
 }
 
-#basic
+#background
 {
-	border: solid 1px #9d9d9d
+	background-color: #9d9d9d;
 }
 
 #paragraph
