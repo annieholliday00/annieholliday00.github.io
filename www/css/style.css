@@ -2,19 +2,8 @@ body, html {
   height: 100%;
 }
 
-.bg {
-  background-color: black;
-
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #basic
 {
-	background: white;
 	border: solid 1px #9d9d9d
 }
 
@@ -26,37 +15,11 @@ body, html {
 	letter-spacing:1.5pt;
 }
 
-#paragraph2
-{
-	font-family: georgia;
-	font-size: 13px;
-	color: #924D5D;
-	letter-spacing:1.5px;
-	font-style: italic;
-}
-
-#paragraphplain
-{
-		font-family:georgia;
-		font-size:13px;
-		color: black;
-		font-style:bold;
-}
-
 #header
 {
 	font-family: georgia;
 	font-size: 20px;
 	color: #D4BDAE;
-	letter-spacing:1.5px;
-}
-
-#sheader
-{
-	font-family: georgia;
-	font-size: 20px;
-	font-weight: bold;
-	color: black;
 	letter-spacing:1.5px;
 }
 
