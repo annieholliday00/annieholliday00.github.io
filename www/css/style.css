@@ -31,8 +31,8 @@ body, html
 {
 	font-family: helvetica;
 	font-variant: small-caps;
-	font-size: 100%;
-	color: #7476aa;
+	font-size: 90%;
+	color: #ab580b;
 	letter-spacing:2pt;
 }
 
@@ -40,7 +40,7 @@ body, html
 {
 	font-family:helvetica;
 	font-variant: small-caps;
-	font-size:100%;
+	font-size:90%;
 	color: white;
 	letter-spacing:2pt;
 }
