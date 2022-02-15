@@ -2,8 +2,8 @@ body, html
 
 #background
 {
-	background: rgb(154,135,167);
-	background: radial-gradient(circle, rgba(134,49,82,1) 0%, rgba(35,42,48,1) 100%);
+	background: rgb(52,52,58);
+	background: radial-gradient(circle, rgba(52,52,58,1) 32%, rgba(82,19,19,1) 100%);
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
@@ -12,26 +12,36 @@ body, html
 
 #paragraphback
 {
+	background: rgb(52,52,58);
+	background: linear-gradient(18deg, rgba(52,52,58,0.5) 14%, rgba(52,51,57,0.7) 16%, rgba(47,11,11,1) 100%);
+	width:100%;
+	height:100%;
+}
+
+#paragraphback2
+{
 	background: rgb(154,135,167);
 	background: linear-gradient(330deg, rgba(109,61,25,0.8) 0%, rgba(35,42,48,0.2) 60%);
 	width:100%;
 	height:100%;
+	border: 10px solid black;
 }
 
 #paragraph
 {
 	font-family: georgia;
-	font-size: 12px;
+	font-size: 100%;
 	color: #7476aa;
 	letter-spacing:2pt;
 }
 
 #header
 {
-	font-family: georgia;
-	font-size: 30px;
-	color: #7476aa;
-	letter-spacing:1.5px;
+	font-family: helvetica;
+	font-variant: small-caps;
+	font-size: 500%;
+	color: rgb(109,61,25);
+	letter-spacing:10px;
 }
 
 #footer
