@@ -63,8 +63,22 @@ body, html
 	text-align: center;
 }
 
+#title
+{
+	width:50%
+	height:10%;
+	margin: 1%;
+	margin-left:11%;
+	font-family: helvetica;
+	font-variant: small-caps;
+	font-size: 60px;
+	color: #ab580b;
+	letter-spacing:10px;
+}
+
 #header
 {
+	margin:1%;
 	font-family: helvetica;
 	font-variant: small-caps;
 	font-size: 30px;
