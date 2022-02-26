@@ -38,6 +38,19 @@ body, html
 	padding: 2%;
 }
 
+#paragraph2
+{
+	width:96%;
+	height:auto;
+	background:black;
+	font-family: helvetica;
+	font-variant: small-caps;
+	font-size: 11px;
+	color: #93a9b0;
+	letter-spacing:2pt;
+	padding: 2%;
+}
+
 #sideparagraph
 {
 	width:1%;
