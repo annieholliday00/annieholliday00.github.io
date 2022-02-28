@@ -51,6 +51,24 @@ body, html
 	padding: 2%;
 }
 
+#paragraph3
+{
+	background:black;
+	font-family: helvetica;
+	font-variant: small-caps;
+	font-size: 11px;
+	color: #d8771d;
+	letter-spacing:2pt;
+	padding:1%;
+	float: bottom-right;
+	text-align:right;
+	width:70%;
+	height:3%;
+	float:right;
+	margin-top:15%;
+	overflow:visible;
+}
+
 #sideparagraph
 {
 	width:1%;
