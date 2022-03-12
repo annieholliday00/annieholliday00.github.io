@@ -28,11 +28,9 @@ body, html
 {
 	width:96%;
 	height:auto;
-	background:black;
 	font-family: helvetica;
 	font-variant: small-caps;
 	font-size: 11px;
-	font-style: italic;
 	color: #d8771d;
 	letter-spacing:2pt;
 	padding: 2%;
