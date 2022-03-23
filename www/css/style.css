@@ -24,6 +24,17 @@ body, html
 	background: linear-gradient(330deg, rgba(109,61,25,0.8) 0%, rgba(35,42,48,0.2) 60%);
 }
 
+#paragraphbasic
+{
+	width:96%;
+	height:auto;
+	font-family: helvetica;
+	font-variant: small-caps;
+	font-size: 11px;
+	color: #93a9b0;
+	letter-spacing:2pt;
+}
+
 #paragraph
 {
 	width:96%;
