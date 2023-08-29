@@ -1,0 +1,166 @@
+<html>
+	<head>
+ 
+		<title>
+				Welcome!
+		</title>
+ 
+ <!-- css attempt -->
+ 
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	</head>
+	<body>
+ 
+		<div id="basic">
+ 
+<!-- below here is where stuff happens -->
+ 
+ <div style="background:black;width:100%;height:99%;overflow:hidden">
+ 
+<!-- huge scroll box -->
+
+		<div style="height:89%;width:95%;background-image:url(images/scare.jpg);margin:2.5%;overflow:hidden">
+		<div style="height:100%;width:102%;border:1px solid black;overflow:auto">
+
+<!-- scroll title -->
+
+		<div style="background:white;border:1px solid #38193D;float:left;margin-top:37%;margin-left:38%;margin-right:38%;padding:5px;overflow:hidden;">
+			<div id="sheader">
+				no horseplay, no diving
+			</div>
+			</div>
+		<div style="height:100%;width:99%;margin-top:50%;">
+
+<!-- navigation menu -->
+
+		<div style="background:black;height:5%;width:98%;color:white;float:left;padding:15px;">
+				<nav>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="portfolio.html">PORTFOLIO</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</nav>
+		</div>
+			
+<!-- zaba container for paragraphs -->
+
+		<div style="background-image:url(images/zaba.jpg);height:90%;width:101%;float:left;">
+		
+			<div style="background-color:rgba(15, 0, 29, 0.74);height:90%;width:95%;margin:2.5%;overflow:hidden">
+			<div style="height:90%;width:103%;overflow:auto;">
+				
+				<div id="paragraph">
+				
+<div style="height:5%;padding:1%;margin:1.5%;margin-bottom:0px;width:95%">
+<div id="header">
+<div style="height:auto;width:5%;float:left;margin-right:84%;">ABOUT</div>
+<div style="height:auto;width:5%;float:left;"><a onclick="show()" href="#">MUSIC</a></div>
+</div></div>
+
+<div style="height:250px;width:100%;">
+<div style="background-color:black;border:solid 1px #0C4E48;height:100%;width:29%;margin:1.5%;float:left;overflow:hidden;">
+<div style="margin:5%;"><div id="header">
+WHERE ARE YOU?
+</div>
+<div style="background-color:black;height:70%;width:111%;margin-top:5%;overflow:auto;">
+welcome to my first portfolio/personal website. i hope you enjoy your time here!
+<br><br>
+i tried to make it as interesting as possible by filling it with random quotes, lyrics and poetry, which i will credit below. 
+<br><br>
+all the art/models presented are made by me. i tried to design website in such a way to allow further additions, such as more art, or bigger models, but i think i could have done a better job of implementing this.
+<br><br>
+please try out the music player! i was really proud of that. c:
+</div></div></div>
+<div style="border:solid 1px #0C4E48;height:100%;width:59%;margin:1.5%;float:left;overflow:hidden;">
+<img src="images/art/red 2.png" img style="width:100%;">
+</div>
+</div>
+
+<div style="height:250px;width:100%;">
+<div style="border:solid 1px #0C4E48;height:100%;width:59%;margin:1.5%;float:left;overflow:hidden;">
+<img src="images/art/red 2.png" img style="width:100%;">
+</div>
+<div style="background-color:black;border:solid 1px #0C4E48;height:100%;width:29%;margin:1.5%;float:left;overflow:hidden;">
+<div style="margin:5%;"><div id="header">
+CREDITS
+</div>
+<div style="background-color:black;height:70%;width:111%;margin-top:5%;overflow:auto;">
+artists
+<br><br>
+tim sale, micah lidberg, and me (annie holliday)
+<br><br>
+---
+<br><br>
+musical artists
+<br><br>
+glass animals (black mambo), gorillaz (feat fatoumata diawara) (desole), molchat doma (toska), lime cordiale (robbery), everything everything (schoolin), jack stauber (tea errors)
+<br><br>
+---
+<br><br>
+literature
+<br><br>
+christina rossetti (goblin market), michael frayn (spies)
+<br>
+plus lyrics by molchat doma (kletka)
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- javascript attempt below -->
+
+<div id="player" style="display:none;">
+<img src="assets/images/glass.png" id="background"></img>
+    <audio src="assets/music/glass.mp3" id="song"></audio>
+
+    <div class="container">  
+        <div class="box"></div>      
+        <img src="assets/images/glass.png" id="thumbnail"></img>
+        
+        <img src="assets/icons/play.png" onclick="playPause()" id="play-pause" />
+        <img src="assets/icons/forward.png" onclick="nextSong()" id="next-song" />
+		<div style="background:white;height:13px;width:10px;" onclick="shutdown()" id="close">
+		<div id="paragraphplain">X</div></div>
+		 
+        <div class="song-artist">glass animals</div>
+        <div class="song-title">black mambo</div>
+        
+        <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0" 
+            onchange="changeProgressBar()"
+        />
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+    </div>
+
+</div>
+
+<script src="java/player.js"></script>
+<div id="footer">feet and toes /// annie 2020</div>
+<!-- javascript attempt above -->
+
+ </body>
+
+				</div>
+			
+			</div>
+			</div>
+		
+		</div>
+			
+<!-- above here is where stuff happens -->
+
+		</span>
+		</div>
+ </div>
+</body>
+</html>
