@@ -1,0 +1,59 @@
+body, html {
+  height: 95%;
+}
+
+.bg
+{
+	background-image: url("zaba.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#basic
+{
+	font-family: Didot, serif;
+	font-variant: small-caps;
+	font-size: 1120%;
+	color: #90d337;
+	letter-spacing:1pt;
+	text-align: center;
+	line-height: 50%;
+}
+
+#subtitle
+{
+	font-family: Didot, serif;
+	font-variant: small-caps;
+	font-size: 100%;
+	font-style: italic;
+	color: #90d337;
+	letter-spacing:1pt;
+	text-align: right;
+	line-height: 600%;
+	padding-right: 2%;
+
+}
+
+#menu
+{
+	font-family: Didot, serif;
+	font-variant: small-caps;
+	font-size: 90%;
+	color: #90d337;
+	letter-spacing:1pt;
+	text-align: center;
+	line-height: 180%;
+}
+
+#text
+{
+	font-family: Didot, serif;
+	font-variant: small-caps;
+	font-size: 90%;
+	color: #90d337;
+	letter-spacing:1pt;
+	text-align: left;
+	line-height: 80%;
+}
