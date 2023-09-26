@@ -4,7 +4,7 @@ body, html {
 
 .bg
 {
-	background-image: url("zaba.jpg");
+	background-image: url("back.png");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -15,23 +15,23 @@ body, html {
 {
 	font-family: Didot, serif;
 	font-variant: small-caps;
-	font-size: 1120%;
-	color: #90d337;
-	letter-spacing:1pt;
+	font-size: 850%;
+	color: #2200419d;
+	letter-spacing:10%;
 	text-align: center;
-	line-height: 50%;
+	line-height: 46%;
 }
 
 #subtitle
 {
 	font-family: Didot, serif;
 	font-variant: small-caps;
-	font-size: 100%;
+	font-size: 200%;
 	font-style: italic;
 	color: #90d337;
 	letter-spacing:1pt;
 	text-align: right;
-	line-height: 600%;
+	line-height: 120%;
 	padding-right: 2%;
 
 }
@@ -45,9 +45,33 @@ body, html {
 	letter-spacing:1pt;
 	text-align: center;
 	line-height: 180%;
+	text-decoration: underline #610a00;
+}
+
+#menu2
+{
+	font-family: Didot, serif;
+	font-variant: small-caps;
+	font-size: 90%;
+	color: #b91301;
+	letter-spacing:1pt;
+	text-align: center;
+	line-height: 180%;
+	text-decoration: underline #610a00;
 }
 
 #text
+{
+	font-family: Didot, serif;
+	font-variant: small-caps;
+	font-size: 90%;
+	color: #decba3;
+	letter-spacing:1pt;
+	text-align: left;
+	line-height: 80%;
+}
+
+#textimp
 {
 	font-family: Didot, serif;
 	font-variant: small-caps;
@@ -57,3 +81,54 @@ body, html {
 	text-align: left;
 	line-height: 80%;
 }
+
+.mancer
+{
+	width:48%;
+	float:right;
+	margin:1%;
+	margin-left:0%;
+	border:1px solid red;
+}
+
+.studio
+{
+	width:48%;
+	float:right;
+	margin:1%;
+	margin-left:0%;
+	border:1px solid red;
+}
+
+.studio2
+{
+	width:48%;
+	float:left;
+	margin:1%;
+	border:1px solid red;
+}
+
+.silver
+{
+	width:48%;
+	float:right;
+	margin:1%;
+	margin-left:0%;
+	border: 1px solid red
+}
+
+.silver2
+{
+	width:48%;
+	float:left;
+	margin:1%;
+	border: 1px solid red
+}
+
+img.darker {
+	transition: all 0.2s ease-in-out;
+  }
+  
+  img.darker:hover {
+	filter: brightness(50%);
+  }
